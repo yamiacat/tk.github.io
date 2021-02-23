@@ -1,0 +1,234 @@
+/* import fonts from fonts.css file */
+@import url(./fonts.css);
+
+/* import css variables */
+@import url(./partials/_variables.css);
+
+/* import global variables */
+@import url(./partials/_global.css);
+
+.header_area .main-menu .navbar .navbar-brand{
+    padding: 0 2rem 0 5rem;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.header_area .main-menu .navbar{
+    padding: 1rem 20rem;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 500 15px/2px;
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: var(--title-color);
+}
+
+.header_area .main-menu .navbar-nav > .active > a{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+    background: var(--gradient-color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.site-main .site-banner .site-title h3{
+    padding-top: 35%;
+    font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3::after{
+    content: "";
+    height: 2px;
+    width: 18vw;
+    background: black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 1.5rem;
+}
+
+.site-main .site-banner .banner-image > img{
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+.site-main .about-area{
+    padding: 8rem 5rem;
+}
+
+.site-main .about-area .about-title{
+    padding: 1em 0 0 3em;
+}
+
+.site-main .about-area .about-title h2 > span{
+    display: block;
+    font: normal bold 49px/60px;
+    letter-spacing: 21px;
+}
+
+.social-center{
+    margin: auto 12%;
+}
+
+.nav-social-media{
+    list-style-type: none;
+}
+
+.social-media-icon{
+    display: inline-block;
+}
+
+.social-icons{
+    font-size: 1.75em;
+    padding: 1rem;
+}
+
+.site-main .services-area{
+    padding: 7rem 2rem;
+}
+
+.site-main .services-area .services-title{
+    padding: 0 14rem;
+}
+
+.site-main .services-area .services-title h1{
+    font-size: 35px;
+    margin-top: 5rem;
+}
+
+.site-main > .services-area .services{
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 0;
+    width: 32rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+}
+
+.site-main > .services-area .services:hover{
+    box-shadow: var(--box-shadow);
+}
+
+.site-main .projects-area{
+    padding: 4rem 0;
+    height: max-content;
+}
+
+.site-main .projects-area .row a:link{
+    text-decoration: none;
+}
+
+.site-main .projects-area .row a:visited{
+    text-decoration: none;
+}
+
+.site-main .projects-area .row a:hover{
+    text-decoration: none;
+}
+
+.site-main .projects-area .row a:active{
+    text-decoration: none;
+}
+
+.site-main .projects-area .row .col .our-project{
+    background-color: rgba(248, 252, 253, 0.973);
+    width: 50%;
+}
+
+.site-main .projects-area .row .col .our-project .img{
+    padding: 4rem 0;
+}
+
+.site-main .projects-area .row .col .our-project > .title > h4{
+    font: normal 700 25px/12px;
+}
+ 
+.site-main .projects-area .row .col .our-project .img a:hover img{
+    filter: brightness(1.1)drop-shadow(1px 8px 30px #b1afaf);
+} 
+
+.site-main .projects-area .project-title{
+    padding: 0 14rem;
+    text-align: center;
+}
+
+.site-main .projects-area .project-title h1{
+    font-size: 35px;
+    margin: auto;
+    vertical-align: middle;
+    line-height: 51px;
+    margin-top: 5rem;
+}
+
+.site-main > .projects-area .row .col .our-project{
+    background: rgba(248, 252, 253, 0.973);
+    padding: 2rem 2rem;
+    width: 32rem;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+}
+
+.site-main > .projects-area .row .our-project:hover{
+    box-shadow: var(--box-shadow);
+}
+
+.site-main .projects-area .row .loading{
+    text-align: center;
+}
+
+/* TODO: remove this style after completing 
+.site-main .contact-area{
+    background-color: red;
+}*/
+
+.site-main .contact-area .contact{
+    padding-top: 5rem;
+}
+
+.site-main .contact-area .contact .contact-title h4{
+    /* font: normal bold 700 30px/30px; */
+    font-weight: bolder;
+    font-size: 2rem;
+    letter-spacing: .3rem;
+    color: black;
+}
+
+.site-main .contact-area .contact .contact-title .img{
+    padding: 1.9rem 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.site-main .contact-area .contact .contact-title .para{
+    color: red;
+    font-size: 2rem;
+    font-weight: bolder;
+    padding: 1rem auto;
+    letter-spacing: .1rem;
+    margin-bottom: 12rem;
+}
+
+.site-main .contact-area .contact .contact-title .contact-title-text{
+    letter-spacing: .2rem;
+    font-weight: 900;
+}
+
+footer.footer-area{
+    padding: 2rem 0;
+    background-color: black;
+    color: whitesmoke;
+}
